@@ -1,7 +1,7 @@
 import telebot
 from transliterate import to_cyrillic, to_latin
 
-TOKEN = "Set yout token"
+TOKEN = "Set your token"
 bot = telebot.TeleBot(token=TOKEN)
 
 @bot.message_handler(commands=["start"])
